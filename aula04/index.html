@@ -3,100 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 02</title>
-
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        header{
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        nav{
-            text-align: center;
-        }
-        nav ul li{
-            display: inline;
-            margin: 0 10px;
-        }
-        nav ul li a{
-            color: #fff;
-            text-decoration: none;
-        }
-
-        section{
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 25px;
-        }
-
-        footer{
-            text-align: center;
-        }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Introdução HTML5</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#conteudo">Conteudo</a></li>
-                <li><a href="#inscricao">Inscrição</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="sobre">
-        <h2>Sobre o curso</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius provident delectus, commodi minima, corrupti ab pariatur eaque quaerat incidunt repudiandae suscipit minus vero sint labore doloremque ex aut nam itaque sapiente, odio amet temporibus accusantium iure! Quibusdam ex alias est neque, ipsam, excepturi aperiam earum culpa modi eveniet repellat! Aliquam!
-        </p>
-    </section>
-
-    <section id="conteudo">
-        <h2>Conteúdo do Curso</h2>
-        <ul>
-            <li>Intordução HTML5</li>
-            <li>Estrutura básica HTMl5</li>
-            <li>Tags Semanticas</li>
-            <li>Formularios</li>
-            <li>Estilizando com CSS3</li>
-        </ul>
-    </section>
-
-    <section id="inscricao">
-        <h2>Inscrição</h2>
-        <p>Para inscrever-se no evento, preencha o formulario</p>
-
-        <form action="">
-            <label for="nome">Nome: </label>
-            <input type="text" name="nome" id="nome" required><br><br>
-
-            <label for="">Email: </label>
-            <input type="email" name="email" id="email" required><br><br>
-
-            <input type="submit" value="Inscrever">
-        </form>
-    </section>
-
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Para maiores informações</p>
-        <p>Email: teste@gmail.com</p>
-        <p>telefone: (00) 11111111</p>
-    </section>
-
-    <footer>
-        <p>&copy; Pedro</p>
-    </footer>
+    <div class="main-login">
+        <div class="left-login"> <!-- esquerda -->
+            <h1>Faça seu Login
+                <br>Entre para nosso time!
+            </h1>
+            <img src="assets/astronauta.svg" class="left-login-img" alt="Animação do astronauta">
+        </div>
+        <div class="right-login"> <!-- direita -->
+            <div class="card-login">
+                <h1>Registre-se</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="" placeholder="Digite seu usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="" placeholder="Digite sua senha">
+                </div>
+                <button class="btn-login">LOGIN</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
