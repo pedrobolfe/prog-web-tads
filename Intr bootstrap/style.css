@@ -1,0 +1,48 @@
+.nav-details {
+    background-color: #FEFAF6;
+}
+
+.nav-link:hover{
+    transform: scale(1.3);
+}
+
+main {
+    background-color: #EADBC8;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 28px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+.social-icons:hover a {
+    opacity: 0.3;
+    transition: 0.5s;
+  }
+.social-icons a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.album {
+    background-color: #DAC0A3;
+}
+
+footer {
+    background-color: #102C57;
+}
+
+footer div p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
